@@ -18,7 +18,7 @@ class SendEmailForm(BaseForm):
 
     def validate_receivers(self, field):
         for i in field.data:
-            if not re.match(r'^[0-9a-zA-Z_]{0,19}@[0-9a-zA-Z]{1,13}\.[com,cn,net]{1,3}$', i):
+            if not re.match(r"[\w!#$%&'*+/=?^_`{|}~-]+(?:\.[\w!#$%&'*+/=?^_`{|}~-]+)*@(?:[\w](?:[\w-]*[\w])?\.)+[\w](?:[\w-]*[\w])?", i):
                 err = "[{}]邮箱格式错误".format(i)
                 raise NotAllowed(err)
 
