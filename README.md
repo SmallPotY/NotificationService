@@ -1,5 +1,27 @@
 
 
+
+### secret.ini 文件配置
+```markdown
+[localhostDB]
+USERNAME = ***
+PASSWORD = ***
+HOST = 127.0.0.1
+PORT = 3306
+
+[ShortMessageKey]
+TENCENT_APP_ID = ***
+TENCENT_APP_KEY = ***
+
+[EmailSetting]
+MAIL_HOST = ***
+MAIL_PORT = ***
+MAIL_USER = ***
+MAIL_PASS = ***
+SENDER = 用来发件的邮箱
+```
+
+
 ### 发送短信
 > POST http://127.0.0.1:8877/send_messages
 
