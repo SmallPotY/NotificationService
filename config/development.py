@@ -35,3 +35,12 @@ SHORT_MESSAGE_TEMPLATE = {
 }
 
 SHORT_MESSAGE_SIGNATURE = ["员工盒子"]
+
+
+EMAIL_KEY = {
+    "MAIL_HOST": config.get('EmailSetting', 'MAIL_HOST'),
+    "MAIL_PORT": config.get('EmailSetting', 'MAIL_PORT'),
+    "MAIL_USER": config.get('EmailSetting', 'MAIL_USER'),
+    "MAIL_PASS": config.get('EmailSetting', 'MAIL_PASS'),
+    "SENDER": config.get('EmailSetting', 'SENDER'),
+}

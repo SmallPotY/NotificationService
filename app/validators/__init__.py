@@ -2,7 +2,7 @@
 from flask import request
 from wtforms import Form, StringField
 from wtforms.validators import DataRequired
-from web.httpCode.code import ParameterException
+from app.httpCode.code import ParameterException
 
 
 class BaseForm(Form):

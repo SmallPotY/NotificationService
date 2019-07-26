@@ -4,7 +4,7 @@ import time
 from flask_sqlalchemy import SQLAlchemy as _SQLAlchemy, BaseQuery
 from sqlalchemy import Column
 from contextlib import contextmanager
-from web.httpCode.code import NotFound, DatabaseException
+from app.httpCode.code import NotFound, DatabaseException
 from sqlalchemy.sql import func
 
 

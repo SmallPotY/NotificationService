@@ -3,8 +3,9 @@
 from qcloudsms_py import SmsSingleSender
 from qcloudsms_py.httpclient import HTTPError
 from application import app
-from web.httpCode.code import NotAllowed
+from app.httpCode.code import NotAllowed
 from common.libs.LogService import LogService as Log
+
 
 class ShortMessageService:
 

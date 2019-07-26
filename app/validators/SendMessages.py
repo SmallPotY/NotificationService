@@ -1,9 +1,9 @@
 # -*- coding:utf-8 -*-
 from wtforms import StringField
 from wtforms.validators import DataRequired
-from web.validators import BaseForm
+from app.validators import BaseForm
 import re
-from web.httpCode.code import NotAllowed
+from app.httpCode.code import NotAllowed
 
 
 class SendMessagesForm(BaseForm):

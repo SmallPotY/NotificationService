@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-from web.httpCode import APIResponse
+from app.httpCode import APIResponse
 
 
 class Success(APIResponse):

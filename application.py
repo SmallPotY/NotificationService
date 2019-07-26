@@ -7,7 +7,7 @@ from werkzeug.exceptions import HTTPException
 from decimal import Decimal
 import datetime
 from common.models import db
-from web.httpCode import APIException
+from app.httpCode import APIException
 from common.libs.LogService import LogService
 
 
